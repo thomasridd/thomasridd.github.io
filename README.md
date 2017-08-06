@@ -1,8 +1,13 @@
-# thomasridd.github.io
-My Site
+# Jekyll Resume Theme
 
-This site was built using Jekyll to test out that technology for final infrastructure in a project I have been working.
+A mega simple Jekyll theme for displaying a resume/cv online.
 
-In the event we chose to use Python, Flask, and Jinja2 as a custom static site renderer instead.
+The theme follows the default Jekyll build as closely as possible to avoid any dependency issues.
 
-visit [thomasridd.github.io](https://thomasridd.github.io)
+To customise you just need to fill out the `_config.yml` and the jobs and education `.yml` files in the `_data` directory with your own details.
+
+You can see a demo of the theme at: [mattcouchman.github.com/jekyll-resume](http://mattcouchman.github.com/jekyll-resume)
+
+Feel free to tear apart and rebuild as you wish.
+
+![Screenshot of resume theme](https://github.com/mattcouchman/jekyll-resume/raw/master/img/screen.png)

@@ -1,32 +1,19 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely edit after that. If you find
-# yourself editing this file very often, consider using Jekyll's data files
-# feature for the data you need to update frequently.
-#
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+# Jekyll Resume Theme
 
 # Site settings
-# These are used to personalize your new site. If you look in the HTML files,
-# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
-# You can create any custom variable you would like, and they will be accessible
-# in the templates via {{ site.myvariable }}.
-title: Thomas Ridd
+title: Jekyll Resume
 email: 
-description: > # this means to ignore newlines until "baseurl:"
-  I am a Senior Developer with a specialty in data technologies. This is a simple site for me to build a quick portfolio and to test out Jekyll.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+description: This is a quick resume I have built to try out Jekyll for a project.
+baseurl: ""
+url: "http://thomasridd.github.io"
+name: Tom Ridd
+job: full stack engineer
+location: London, UK
+languages: data
 twitter_username: thomasridd
 github_username:  thomasridd
-permalink: pretty
+codepen_username:  
+email_address: 
 
 # Build settings
 markdown: kramdown
-gems:
-  - jekyll-feed
-exclude:
-  - Gemfile
-  - Gemfile.lock
