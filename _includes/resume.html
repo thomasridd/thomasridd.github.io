@@ -1,0 +1,42 @@
+<h3 class="section-title">Selected Projects</h3>
+<dl class="experience">
+    {% for project in site.data.projects %}
+        <dt>
+            <p class="title">{{ project.title }}</p>
+            <p class="client">{{ project.client }}</p>
+            <p class="period">{{ project.period }}</p>
+        </dt><!--
+        --><dd>
+            <p>{{ project.description }}</p>
+            <p class="technology">{{ project.technology }}</p>
+        </dd>
+    {% endfor %}
+</dl>
+
+<h3 class="section-title">Jobs</h3>
+<dl class="experience">
+    {% for job in site.data.jobs %}
+        <dt>
+            <p class="title">{{ job.title }}</p>
+            <p class="company">{{ job.company }}</p>
+            <p class="period">{{ job.period }}</p>
+        </dt><!--
+        --><dd>
+            <p>{{ job.description }}</p>
+        </dd>
+    {% endfor %}
+</dl>
+
+<h3 class="section-title">Education</h3>
+<dl class="education">
+    {% for qualification in site.data.education %}
+        <dt>
+            <p class="title">{{ qualification.qualification }}</p>
+            <p class="company">{{ qualification.school }}</p>
+            <p class="period">{{ qualification.period }}</p>
+        </dt><!--
+        --><dd>
+            <p>{{ qualification.description }}</p>
+        </dd>
+    {% endfor %}
+</dl>

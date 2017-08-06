@@ -1,0 +1,24 @@
+-   title: Tech lead
+    client: Race Disparity Audit - Beta
+    description: Take the proof of concept designs and plans from RDA Alpha and make them a reality. Technical effort is spent creating a system that can run indefinitely and in countering problems that were never encountered when we were only using limited example data.
+    technology: Python, Flask, Jinja2, PostgreSQL, AWS S3, Heroku, Sentry, CircleCI
+
+-   title: Senior developer
+    client: Race Disparity Audit - Alpha
+    description: Rapid prototyping over one week agile sprints to determine specification, design, and build strategy for a major government data initiative.
+    technology: Ruby, R, Heroku
+
+-   title: Senior developer
+    client: GOV.UK - Licensify
+    description: Learning and upgrading a live but abandoned section of GOV.UK. It is written in a relatively obscure language and the complete system is dependent on many moving parts, complicating the process of upgrading a live system.
+    technology: Scala, Play, Notify, WorldPay, ClamAV, MongoDB
+
+-   title: Senior developer
+    client: NHS - Quality Surveillance Information System 
+    description: All developers on the QSIS project worked across the stack but with specialties. In doing this we could ensure a fast workpace whilst maintaining quality engineering standards. I did everything but was particularly lead Java architect, SQL optimiser, and anything to do with testing. 
+    technology: Java, Dropwizard, MySQL, AngularJS, CircleCI
+
+-   title: Full stack developer
+    client: ONS - Bespoke publishing platform
+    description: Specialised in stories with a data component such as the data auto-processor, the chart builder, and the API. Later took on broader responsibilities in managing the production website. These included coordinating version deployment and managing data. This was an intense apprenticeship where every waking moment was dedicated to coding.
+    technology: Java, JQuery, Highcharts, Jenkins, Docker, AWS

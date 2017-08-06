@@ -1,13 +1,9 @@
-# Jekyll Resume Theme
+# Jekyll Test Theme
 
-A mega simple Jekyll theme for displaying a resume/cv online.
+This is a test to see whether we want to use Jekyll as a static site generator for my next beta to live project.
 
-The theme follows the default Jekyll build as closely as possible to avoid any dependency issues.
+We don't but that isn't Jekyll's fault.
 
-To customise you just need to fill out the `_config.yml` and the jobs and education `.yml` files in the `_data` directory with your own details.
+Much kudos to Matt Couchman who originally built the template for this thing: [mattcouchman.github.com/jekyll-resume](http://mattcouchman.github.com/jekyll-resume)
 
-You can see a demo of the theme at: [mattcouchman.github.com/jekyll-resume](http://mattcouchman.github.com/jekyll-resume)
-
-Feel free to tear apart and rebuild as you wish.
-
-![Screenshot of resume theme](https://github.com/mattcouchman/jekyll-resume/raw/master/img/screen.png)
+As Matt puts it - Feel free to tear apart and rebuild as you wish.
